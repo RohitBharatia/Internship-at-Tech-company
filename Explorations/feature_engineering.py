@@ -30,6 +30,7 @@ print("Marbles with Encoded Values:")
 print(marbles_2)
 print(2)
 
+# after encoding it changes 'red' to 'colour_red'. I dont like it, so ive included the split part
 def encoding_to_dict(input_df, encoder):
     color_names = encoder.get_feature_names_out()  # Get proper feature names
     new = {color.split('_')[1]: input_df.iloc[:, idx].tolist() 
