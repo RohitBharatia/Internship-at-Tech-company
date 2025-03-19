@@ -1,3 +1,7 @@
+''' This code is a first attempt at using the streamlit library to build an (I think) website. I'm also using the iris data set from sklearn the random forest classifier from sklearn. The idea is to build a small interactive module and give a prediction of what species of flower has the particular attributes of the user input. It is almost exactly the same as the code written by Krish Naik in his Udemy course. '''
+
+
+
 import pandas as pd
 import streamlit as st
 from sklearn.datasets import load_iris
