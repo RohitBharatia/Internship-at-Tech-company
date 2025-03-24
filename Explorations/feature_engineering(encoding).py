@@ -77,6 +77,3 @@ for idx, arr in enumerate(days_encoded):
 print(days_df)
 
 #days_encoded=encoder.fit_transform(days[['days']]).toarray()
-
-
-
